@@ -1,0 +1,573 @@
+body {
+    margin: 0px;
+    width: 1510px;
+  }
+  
+  @font-face {
+    font-family: Gamefont;
+    src: url(game-paused-font/GamepauseddemoRegular-RpmY6.otf);
+  }
+  /*leo Log-in*/
+  #Heading {
+    color: #ffffff;
+    font-size: 160px;
+    font-family: Gamefont;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 30px;
+    text-shadow: 10px 7px 0px #458ecd;
+  }
+  #Heading2 {
+    color: #458ecd;
+    font-size: 50px;
+    font-family: Gamefont;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    letter-spacing: 10px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-width: 2px;
+  }
+  #head {
+    margin: 0px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .homepage {
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 6px;
+    border-radius: 12px;
+  }
+  .homepage:hover {
+    background-color: #7596bf73;
+  }
+  #startbutton {
+    background-color: #ffe999;
+    margin: 20px;
+    color: #45482d;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    box-shadow: 5px 5px #6b6e7050;
+  }
+  #startbutton:hover {
+    background-color: #6caff1b6;
+    background-size: 100%;
+  }
+  #BGtopstart {
+    background-color: #ffffff;
+  }
+  #BGstart {
+    background-color: #bcd9f2;
+    height: 700px;
+  }
+  
+  /* ----------------------------------------------  */
+  
+  /* ฟ้าใส How to play */
+  #nextbutton_howtoplay {
+    width: 160px;
+    height: 60px;
+    flex-shrink: 0;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 670px;
+    border-radius: 25px;
+    background: #000000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 675px;
+  }
+  #nextbutton_howtoplay:hover {
+    background-color: #c7b67b;
+    background-size: 100%;
+  }
+  #spaceHowtoplay {
+    margin-top: 0px;
+    height: 80px;
+    background-color: #bcd9f2;
+  }
+  #spaceATHowtoplay {
+    margin-top: 0px;
+    height: 50px;
+    background-color: #bcd9f2;
+  }
+  #spaceATHowtoplay2 {
+    margin-top: 0px;
+    height: 30px;
+    background-color: #bcd9f2;
+  }
+  #spaceATHowtoplay3 {
+    margin-top: 0px;
+    height: 30px;
+    background-color: #bcd9f2;
+  }
+  #background_howtoplay {
+    background: url(watercolor-5062356_1280.jpg) no-repeat;
+    background-color: #bcd9f2;
+    width: 100%;
+    font-family: "Lexend Deca", sans-serif;
+    color: #557693;
+  }
+  
+  #headtext_howtoplay {
+    color: #458ecd;
+    font-size: 100px;
+    font-family: Gamefont;
+    padding: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 30px;
+    text-shadow: 10px 7px 0px #ffffff;
+    margin: 0px;
+  }
+  #text_howtoplay {
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  #boxtext_howtoplay {
+    height: 290px;
+    width: 1200px;
+    border-radius: 29px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #458ecd;
+    text-align: center;
+    font-family: Gamefont;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 4%;
+    margin-left: 100px;
+  }
+  
+  /* ส้ม log-in */
+  #background-som {
+    background: #ffffff;
+    height: 665px;
+  }
+  
+  #login-header {
+    color: #458ecd;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15%;
+    text-align: center;
+    margin-left: 6%;
+  
+    font-size: 100px;
+    font-family: Gamefont;
+    padding: 0px;
+    letter-spacing: 30px;
+    text-shadow: 10px 7px 0px#99bede;
+  }
+  #login-form {
+    border-radius: 29px;
+    border: 1px solid #000;
+    background: #ffffff;
+    width: 1101.543px;
+    height: 575.228px;
+    flex-shrink: 0;
+    margin: 1%;
+    align-content: 50%;
+  }
+  .login-form-field {
+    width: 699px;
+    height: 65px;
+    flex-shrink: 0;
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #000;
+    margin-left: 20%;
+    border-radius: 25px;
+    border: 1px black solid;
+  }
+  .login-form-field::placeholder {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50%;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  #login-form-submit {
+    width: 699px;
+    height: 65px;
+    flex-shrink: 0;
+    fill: #ededed;
+    stroke-width: 1px;
+    stroke: #000;
+    margin-left: 20%;
+    margin-top: 2.5%;
+    text-align: center;
+    border-radius: 23px;
+    border: 1px black solid;
+    color: black;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  #login-form-submit:hover {
+    background-color: #ead68c;
+    background-size: 100%;
+  }
+  
+  #Yellow {
+    width: 1101.543px;
+    height: 575.228px;
+    flex-shrink: 0;
+    border-radius: 29px;
+    border: 1px solid #000;
+    background: #ffe999;
+    margin: 1%;
+    margin-top: 6%;
+    margin-left: 12.75%;
+  }
+  
+  /*  LEO -โจทย์   */
+  
+  .BGQuestion {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 950px;
+    height: 835px;
+  }
+  .boxProblems {
+    background-color: #bcd9f2;
+    border: 2px solid rgb(0, 0, 0);
+    width: 880px;
+    height: 675px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 40px;
+  }
+  
+  .boxQuestion {
+    height: 220px;
+  }
+  .spaceTopQuestion {
+    height: 30px;
+  }
+  #Question1 {
+    margin-top: 0px;
+    height: 200px;
+    /* background: #c58e8e; */
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-bottom: 0px;
+  }
+  #Question2 {
+    margin-top: 0px;
+    height: 200px;
+    /* background: #c58e8e; */
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-bottom: 0px;
+  }
+  .Ques {
+    margin-top: 0px;
+    height: 200px;
+    /* background: #c58e8e; */
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-bottom: 0px;
+  }
+  
+  .boxChooseyouranswer {
+    height: 20px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+  
+    /* background: #826262; */
+  }
+  .Chooseyouranswer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .spaceTopChoice {
+    height: 10px;
+    /* background: #b75a5a; */
+  }
+  .boxchoice1{
+    height: 300px;
+    /* background: #24c94a; */
+  }
+  .boxchoice2{
+    height: 300px;
+    /* background: #24c94a; */
+  }
+  .choice {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+  }
+  .choice input {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    margin: 5px;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  
+  #enterbtn {
+    background-color: #ead7a2;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 40px;
+    box-shadow: 5px 5px #000000;
+    float: right;
+  }
+  #enterbtn:hover {
+    background-color: #5b6cb6;
+    background-size: 100%;
+  }
+  
+  .ButtonHint {
+    background-color: #e8d4a0;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 40px;
+    /* box-shadow: 5px 5px #000000; */
+    float: left;
+  }
+  .ButtonHint:hover {
+    background-color: #5b6cb6;
+    background-size: 100%;
+  }
+  
+  .BGclear {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 410px;
+    height: 500px;
+  }
+  #pic_clear1 {
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    margin-left: 130px;
+    margin-top: 100px;
+  }
+  .boxStars {
+    height: 30px;
+  }
+  .spaceTopstars {
+    height: 50px;
+  }
+  .stars {
+    color: #487aa7;
+    font-size: 32px;
+    font-family: Gamefont;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+    margin-left: 200px;
+  }
+  
+  .BGhint {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 410px;
+    height: 235px;
+  }
+  
+  #hint1 {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    width: 540px;
+    height: 185px;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+  }
+  
+  /* Pie Score */
+  #BGWIN {
+    height: 750px;
+    width: 1510px;
+    float: left;
+    background-color: #bcd9f2;
+  }
+  
+  #boxTotle {
+    margin-left: auto;
+    width: 800px;
+    height: 440px;
+    border-radius: 40px;
+    background: #fff;
+    border: 1px solid #000;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 355px;
+  }
+  #boxscore {
+    margin-left: 120px;
+    width: 560px;
+    height: 100px;
+    border-radius: 30px;
+    background: #ffffff;
+    border: 1px solid #000;
+  }
+  
+  #congreat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  #score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  #donot_angry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  #grade_S {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0px;
+  }
+  
