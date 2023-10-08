@@ -128,7 +128,7 @@ body {
   #spaceATHowtoplay2 {
     margin-top: 0px;
     height: 30px;
-    background-color: #bcd9f2;
+    
   }
   #spaceATHowtoplay3 {
     margin-top: 0px;
@@ -136,8 +136,8 @@ body {
     background-color: #bcd9f2;
   }
   #background_howtoplay {
-    background: url(watercolor-5062356_1280.jpg) no-repeat;
-    background-color: #bcd9f2;
+    background: url(img/BGhowTo.png);
+    
     width: 100%;
     font-family: "Lexend Deca", sans-serif;
     color: #557693;
