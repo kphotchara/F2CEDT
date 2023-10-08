@@ -122,16 +122,17 @@ function checkAnswer() {
         const parentDiv = choices.parentNode;
 
         if (selectedChoice === currentQuestion.correctAnswer) {
+            const imagePath = `img/final_cardfinal_${currentQuestionIndex + 1}.png`;
             score++;
             parentDiv.style.backgroundColor = 'green';
             const correctImage = document.getElementById('correctImage');
-            correctImage.src = 'img/star.png';  // Replace with the correct path
+            correctImage.src = imagePath;  // Replace with the correct path
             correctImage.style.display = 'block';
             document.getElementById('hint').innerText = "เย่ตอบถูกเเล้ว";
         } else {
             parentDiv.style.backgroundColor = 'red';
             const correctImage = document.getElementById('correctImage');
-            correctImage.src = 'img/wrong.jpeg';  // Replace with the correct path
+            correctImage.src = 'img/final_ufo_2.png';  // Replace with the correct path
             correctImage.style.display = 'block';
         }
 
@@ -171,7 +172,7 @@ function displayQuestion() {
     hintButton.style.display = 'block';  // Show Hint button
     enterButton.style.display = 'block'; // Show Enter button
     const correctImage = document.getElementById('correctImage');
-    correctImage.src = 'img/BeforeAns.jpeg';  // Replace with the correct path
+    correctImage.src = 'img/final_robot.png';  // Replace with the correct path
     correctImage.style.display = 'block';
     document.getElementById('stars').innerText = `STAR ${stage[currentQuestionIndex]}`;
     document.getElementById('hint').innerText = "ตอบคำถามให้ถูกเพื่อช่วยโรบอท";
