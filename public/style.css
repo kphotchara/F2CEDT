@@ -1,11 +1,11 @@
-body {
-    margin: 0px;
-    
-  }
-  
+
   @font-face {
     font-family: Gamefont;
     src: url(game-paused-font/GamepauseddemoRegular-RpmY6.otf);
+  }
+  @font-face {
+    font-family: textfont;
+    src: url(Itim/Itim-Regular.ttf);
   }
   /*leo Log-in*/
   #Heading {
@@ -13,7 +13,7 @@ body {
     font-size: 160px;
     font-family: Gamefont;
     padding: 0px;
-    margin-top: 0px;
+    margin-top: 100px;
     margin-bottom: 10px;
     letter-spacing: 30px;
     text-shadow: 10px 7px 0px #458ecd;
@@ -69,7 +69,7 @@ body {
     display: inline-block;
     font-size: 25px;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: textfont;
     width: 200px;
     height: 60px;
     border-radius: 40px;
@@ -96,20 +96,19 @@ body {
     flex-shrink: 0;
     background: rgb(0, 0, 0);
     color: white;
-    font-family: sans-serif;
+    font-family: textfont;
     font-size: 25px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
     text-align: center;
-    margin-left: 670px;
+    margin-left: 45%;
     border-radius: 25px;
     background: #000000;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     margin-top: 30px;
-    margin-left: 675px;
   }
   #nextbutton_howtoplay:hover {
     background-color: #c7b67b;
@@ -119,6 +118,11 @@ body {
     margin-top: 0px;
     height: 80px;
     background-color: #bcd9f2;
+  }
+  #spaceHowtoplaysom {
+    margin-top: 0px;
+    height: 80px;
+    background-color: #ffffff;
   }
   #spaceATHowtoplay {
     margin-top: 0px;
@@ -137,60 +141,60 @@ body {
   }
   #background_howtoplay {
     background: url(img/BGhowTo.png);
-    
     width: 100%;
-    font-family: "Lexend Deca", sans-serif;
+    font-family: textfont;
     color: #557693;
   }
   
   #headtext_howtoplay {
-    color: #458ecd;
+    color: #ffffff;
     font-size: 100px;
     font-family: Gamefont;
     padding: 0px;
     margin-bottom: 10px;
     letter-spacing: 30px;
-    text-shadow: 10px 7px 0px #ffffff;
+    text-shadow: 10px 7px 0px #458ecd;
     margin: 0px;
   }
   #text_howtoplay {
     margin: 0px;
     color: #000;
     text-align: center;
-    font-family: sans-serif;
+    font-family: textfont;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-transform: uppercase;
   }
   
   #boxtext_howtoplay {
     height: 290px;
-    width: 1200px;
+    width: 70%;
     border-radius: 29px;
     border: 1px solid #000;
-    background: #fff;
+    background: #ffffff;
     color: #458ecd;
     text-align: center;
-    font-family: Gamefont;
+    font-family: textfont;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 42px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     padding: 4%;
-    margin-left: 100px;
+    padding-top: 3%;
+    margin-left:11% ;
   }
   
   /* ส้ม log-in */
   #background-som {
     background: #ffffff;
-    height: 665px;
+    height: 800px;
   }
   
   #login-header {
-    color: #458ecd;
+    color: #b0dcf9;
     font-weight: 400;
     line-height: normal;
     margin-top: 15%;
@@ -201,13 +205,13 @@ body {
     font-family: Gamefont;
     padding: 0px;
     letter-spacing: 30px;
-    text-shadow: 10px 7px 0px#99bede;
+    text-shadow: 10px 7px 0px#458ecd;
   }
   #login-form {
     border-radius: 29px;
     border: 1px solid #000;
     background: #ffffff;
-    width: 1101.543px;
+    width: 100%;
     height: 575.228px;
     flex-shrink: 0;
     margin: 1%;
@@ -223,6 +227,9 @@ body {
     margin-left: 20%;
     border-radius: 25px;
     border: 1px black solid;
+    text-align: center;
+    font-size: 30px;
+    font-family: textfont;
   }
   .login-form-field::placeholder {
     color: black;
@@ -260,15 +267,14 @@ body {
   }
   
   #Yellow {
-    width: 1101.543px;
+    width: 80%;
     height: 575.228px;
     flex-shrink: 0;
     border-radius: 29px;
     border: 1px solid #000;
     background: #ffe999;
-    margin: 1%;
-    margin-top: 6%;
-    margin-left: 12.75%;
+    margin-left: 10%;
+    margin-right:20%;
   }
   
   /*  LEO -โจทย์   */
@@ -276,7 +282,7 @@ body {
   .BGQuestion {
     background-color: rgb(255, 255, 255);
     float: left;
-    width: 950px;
+    width: 60%;
     height: 835px;
   }
   .boxProblems {
@@ -305,14 +311,14 @@ body {
     height: 30px;
   }
   #Question {
-    margin-top: 0px;
+    margin-top: 7px;
     height: 200px;
     /* background: #c58e8e; */
-    margin-left: 30%;
+    margin-left: 7%;
     color: #000;
     text-align: left;
-    font-family: sans-serif;
-    font-size: 20px;
+    font-family: textfont;
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -326,7 +332,7 @@ body {
     margin: 0px;
     color: #000;
     text-align: center;
-    font-family: sans-serif;
+    font-family: textfont;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -342,7 +348,7 @@ body {
     margin: 0px;
     color: #000;
     text-align: center;
-    font-family: sans-serif;
+    font-family: textfont;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -362,8 +368,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 20px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+    font-family: textfont;
   }
   
   .spaceTopChoice {
@@ -387,9 +392,8 @@ body {
     margin-right: 50px;
     margin-bottom: 10px;
     border-radius: 40px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-size: 15px;
+    font-family: textfont;
+    font-size: 20px;
     background-color: #ffffff;
   }
   .choice input {
@@ -411,14 +415,14 @@ body {
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+    font-family: textfont;
     width: 200px;
     height: 50px;
     font-size: 20px;
     border-radius: 40px;
     box-shadow: 5px 5px #000000;
     float: right;
+    border-color: #000;
   }
   #ansbtn {
     margin-left: 10%;
@@ -429,17 +433,21 @@ body {
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+    font-family: textfont;
     width: 200px;
     height: 50px;
     font-size: 20px;
     border-radius: 40px;
     box-shadow: 5px 5px #000000;
     float: center;
+    border-color: #000;
+  }
+  #ansbtn:hover{
+    background-color: #b4c4ef;
+    background-size: 100%;
   }
   #enterbtn:hover {
-    background-color: #5b6cb6;
+    background-color: #b4c4ef;
     background-size: 100%;
   }
   
@@ -453,21 +461,20 @@ body {
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+    font-family: textfont;
     font-size: 20px;
     border-radius: 40px;
     /* box-shadow: 5px 5px #000000; */
     float: left;
+    border-color: #000;
   }
   
   .ButtonHint:hover {
-    background-color: #5b6cb6;
+    background-color: #b4c4ef;
     background-size: 100%;
   }
   
   .BGclear {
-    background-color: rgb(255, 255, 255);
     float: left;
     width: 410px;
     height: 500px;
@@ -496,33 +503,40 @@ body {
   }
   
   .BGhint {
-    background-color: rgb(255, 255, 255);
     float: left;
-    width: 410px;
-    height: 235px;
+    width: 30%;
+    margin-left:7%;
   }
   
   #hint {
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 40px;
-    width: 540px;
-    height: 185px;
+    padding-bottom: 81px;
+    padding-top: 81px;
     margin-left: 15px;
     margin-top: 20px;
+    font-family: textfont;
+    vertical-align: middle;
+    font-size: 25px;
+  }
+  #correctImage{
+    border:#000;
+    border-radius: 30px;
+    margin-left: 3%;
   }
   
   /* Pie Score */
   #BGWIN {
     height: 750px;
-    width: 1510px;
     float: left;
+    width:100%;
+    background-size:cover ;
     background-color: #bcd9f2;
   }
   
   #boxTotle {
-    margin-left: auto;
-    width: 800px;
+    width: 70%;
     height: 440px;
     border-radius: 40px;
     background: #fff;
@@ -530,15 +544,15 @@ body {
     position: relative;
     margin-bottom: 20px;
     margin-top: 80px;
-    margin-left: 355px;
+    margin-left: 15%;
   }
   #boxscore {
-    margin-left: 120px;
     width: 560px;
     height: 100px;
     border-radius: 30px;
     background: #ffffff;
     border: 1px solid #000;
+    margin-left: 22%;
   }
   
   #congreat {
@@ -553,6 +567,7 @@ body {
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+    font-family: textfont;
   }
   #score {
     display: flex;
@@ -565,6 +580,7 @@ body {
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+    font-family: textfont;
   }
   
   #donot_angry {
@@ -580,6 +596,7 @@ body {
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 0px;
+    font-family: textfont;
   }
   #grade_S {
     display: flex;
@@ -594,6 +611,7 @@ body {
     line-height: normal;
     text-transform: uppercase;
     margin-top: 0px;
+    font-family: textfont;
   }
   
 

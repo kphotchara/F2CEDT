@@ -83,7 +83,7 @@ function goToEnd() {
     loadUserScores();
     const Endpage = document.getElementById('BGWIN');
     Endpage.style.backgroundImage = "url('img/clearBG.png')";
-
+  
     }
 
 // เริ่มต้นโดยรับอ้างอิงของฟอร์มและหน้า QQQ
@@ -124,13 +124,13 @@ function checkAnswer() {
         if (selectedChoice === currentQuestion.correctAnswer) {
             const imagePath = `img/IMG_${currentQuestionIndex + 2728}.png`;
             score++;
-            parentDiv.style.backgroundColor = 'green';
+            parentDiv.style.backgroundColor = '#90D04E';
             const correctImage = document.getElementById('correctImage');
             correctImage.src = imagePath;  // Replace with the correct path
             correctImage.style.display = 'block';
             document.getElementById('hint').innerText = "เย่ตอบถูกเเล้ว";
         } else {
-            parentDiv.style.backgroundColor = 'red';
+            parentDiv.style.backgroundColor = '#f4977b';
             const correctImage = document.getElementById('correctImage');
             correctImage.src = 'img/final_ufo_2.png';  // Replace with the correct path
             correctImage.style.display = 'block';
