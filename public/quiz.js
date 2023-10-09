@@ -122,7 +122,7 @@ function checkAnswer() {
         const parentDiv = choices.parentNode;
 
         if (selectedChoice === currentQuestion.correctAnswer) {
-            const imagePath = `img/final_cardfinal_${currentQuestionIndex + 1}.png`;
+            const imagePath = `img/IMG_${currentQuestionIndex + 2728}.png`;
             score++;
             parentDiv.style.backgroundColor = 'green';
             const correctImage = document.getElementById('correctImage');
