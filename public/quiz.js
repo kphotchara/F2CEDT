@@ -128,12 +128,13 @@ function checkAnswer() {
             const correctImage = document.getElementById('correctImage');
             correctImage.src = imagePath;  // Replace with the correct path
             correctImage.style.display = 'block';
-            document.getElementById('hint').innerText = "เย่ตอบถูกเเล้ว";
+            document.getElementById('hint').innerText = "STAGE CLEAR คุณช่วย Little Robot ได้สำเร็จ";
         } else {
             parentDiv.style.backgroundColor = '#f4977b';
             const correctImage = document.getElementById('correctImage');
-            correctImage.src = 'img/final_ufo_2.png';  // Replace with the correct path
+            correctImage.src = 'img/IMG_2739.png';  // Replace with the correct path
             correctImage.style.display = 'block';
+            document.getElementById('hint').innerText = `คุณตอบผิด STAR ${stage[currentQuestionIndex]} ถูก UFO ยึดครอง`;
         }
 
         const radioInputs = document.querySelectorAll(`input[name="choice"]`);
@@ -175,7 +176,7 @@ function displayQuestion() {
     correctImage.src = 'img/final_robot.png';  // Replace with the correct path
     correctImage.style.display = 'block';
     document.getElementById('stars').innerText = `STAR ${stage[currentQuestionIndex]}`;
-    document.getElementById('hint').innerText = "ตอบคำถามให้ถูกเพื่อช่วยโรบอท";
+    document.getElementById('hint').innerText = 'ตอบคำถามให้ถูกเพื่อช่วย Little Robot';
     
     addClickListener1();
     addClickListener2();
