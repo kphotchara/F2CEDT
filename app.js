@@ -5,7 +5,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const { MongoClient } = require('mongodb');
 
-const url = "mongodb+srv://kphotchara:0817375417@cluster0.amf8n2r.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://kphotchara:0817375417@cluster0.qsdaw9o.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
 
 async function connectToDatabase() {
