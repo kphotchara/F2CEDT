@@ -24,6 +24,13 @@ window.addEventListener('load', function () {
   showElement("BGtopstart");
   showElement("BGstart");
   scrollToElement("BGtopstart");
+  const startButton = document.getElementById('howButton');
+  startButton.addEventListener('click', () => {
+    hideElement("BGtopstart");
+    hideElement("BGstart");
+    showElement("spaceHowtoplay");
+    showElement("background_howtoplay");
+  });
 });
 
 
