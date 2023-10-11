@@ -7,7 +7,11 @@
     font-family: textfont;
     src: url(Itim/Itim-Regular.ttf);
   }
+  nav {
+    transition: opacity 2s ease-in-out;
+  }
   /*leo Log-in*/
+
   #Heading {
     color: #ffffff;
     font-size: 160px;
@@ -82,10 +86,14 @@
   #BGtopstart {
     background-color: #ffffff;
     height: 45px;
+    display: none;
+    opacity: 0;
   }
   #BGstart {
     background-image: url(img/BGhome.png);
     height: 700px;
+    display: none;
+    opacity: 0;
   }
 
   /* ----------------------------------------------  */
@@ -116,11 +124,15 @@
     background-size: 100%;
   }
   #spaceHowtoplay {
+    display: none;
+    opacity: 0;
     margin-top: 0px;
     height: 80px;
     background-color: #B6DBF5;
   }
   #spaceHowtoplaysom {
+    display: none;
+    opacity: 0;
     margin-top: 0px;
     height: 80px;
     background-color: #ffffff;
@@ -141,6 +153,8 @@
     background-color: #bcd9f2;
   }
   #background_howtoplay {
+    display: none;
+    opacity: 0;
     background: url(img/BGhowTo.png);
     width: 100%;
     font-family: textfont;
@@ -191,6 +205,8 @@
   
   /* ส้ม log-in */
   #background-som {
+    display: none;
+    opacity: 0;
     background: #ffffff;
     height: 800px;
   }
@@ -280,7 +296,11 @@
   }
   
   /*  LEO -โจทย์   */
-  
+  #QQQ {
+    display: none;
+    opacity: 0;
+  }
+
   .BGQuestion {
     background-color: rgb(255, 255, 255);
     float: left;
@@ -530,6 +550,9 @@
   
   /* Pie Score */
   #BGWIN {
+    background-image: url(img/clearBG.png);
+    display: none;
+    opacity: 0;
     height: 750px;
     float: left;
     width:100%;

@@ -10,10 +10,20 @@ function scrollToElement(elementId) {
         element.scrollIntoView({ behavior: "smooth" });
     }
 }
+function showElement(elementId)  {
+  document.getElementById(elementId).style.display = "block";
+  document.getElementById(elementId).style.opacity = "1";
+}
+function hideElement(elementId)  {
+  document.getElementById(elementId).style.display = "none";
+  document.getElementById(elementId).style.opacity = "0";
+}
 
 // Call the scroll function when the page loads (you can customize this)
 window.addEventListener('load', function () {
-    scrollToElement('BGtopstart');
+  showElement("BGtopstart");
+  showElement("BGstart");
+  scrollToElement("BGtopstart");
 });
 
 
@@ -34,21 +44,30 @@ fetch('/api/selectedQuestions')
 const startButton = document.getElementById('startbutton');
 
 startButton.addEventListener('click', () => {
-  scrollToElement('spaceHowtoplay');
+  hideElement("BGtopstart");
+  hideElement("BGstart");
+  showElement("spaceHowtoplay");
+  showElement("background_howtoplay");
+
 });
 
 const NextButton = document.getElementById('nextbutton_howtoplay');
 
 // เพิ่ม Event Listener สำหรับปุ่ม "start"
 NextButton.addEventListener('click', () => {
-  scrollToElement('background-som');
+  hideElement("spaceHowtoplay");
+  hideElement("background_howtoplay");
+  showElement("background-som");
+  showElement("spaceHowtoplaysom");
 });
     
     
 //console.log(questions);
 // สร้างฟังก์ชันเพื่อเลื่อนไปยังส่วน "Question"
 function goToQuestion() {
-    scrollToElement('QQQ');
+    hideElement("background-som");
+    hideElement("spaceHowtoplaysom");
+    showElement('QQQ');
   }
 
 function loadUserScores() {
@@ -79,10 +98,9 @@ function loadUserScores() {
 
 
 function goToEnd() {
-    scrollToElement('BGWIN');
+    hideElement("QQQ");
+    showElement("BGWIN");
     loadUserScores();
-    const Endpage = document.getElementById('BGWIN');
-    Endpage.style.backgroundImage = "url('img/clearBG.png')";
   
     }
 
