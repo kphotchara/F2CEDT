@@ -81,12 +81,13 @@
   }
   #BGtopstart {
     background-color: #ffffff;
+    height: 45px;
   }
   #BGstart {
-    background-color: #bcd9f2;
+    background-image: url(img/BGhome.png);
     height: 700px;
   }
-  
+
   /* ----------------------------------------------  */
   
   /* ฟ้าใส How to play */
@@ -117,7 +118,7 @@
   #spaceHowtoplay {
     margin-top: 0px;
     height: 80px;
-    background-color: #bcd9f2;
+    background-color: #B6DBF5;
   }
   #spaceHowtoplaysom {
     margin-top: 0px;
@@ -151,7 +152,7 @@
     font-size: 100px;
     font-family: Gamefont;
     padding: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     letter-spacing: 30px;
     text-shadow: 10px 7px 0px #458ecd;
     margin: 0px;
@@ -185,6 +186,7 @@
     padding: 4%;
     padding-top: 3%;
     margin-left:11% ;
+    margin-top: 25px;
   }
   
   /* ส้ม log-in */
@@ -543,7 +545,7 @@
     border: 1px solid #000;
     position: relative;
     margin-bottom: 20px;
-    margin-top: 80px;
+    margin-top: 200px;
     margin-left: 15%;
   }
   #boxscore {

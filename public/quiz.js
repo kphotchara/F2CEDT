@@ -173,7 +173,7 @@ function displayQuestion() {
     hintButton.style.display = 'block';  // Show Hint button
     enterButton.style.display = 'block'; // Show Enter button
     const correctImage = document.getElementById('correctImage');
-    correctImage.src = 'img/final_robot.png';  // Replace with the correct path
+    correctImage.src = 'img/IMG_2766.jpeg';  // Replace with the correct path
     correctImage.style.display = 'block';
     document.getElementById('stars').innerText = `STAR ${stage[currentQuestionIndex]}`;
     document.getElementById('hint').innerText = 'ตอบคำถามให้ถูกเพื่อช่วย Little Robot';
