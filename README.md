@@ -1,5 +1,5 @@
 # F2CEDT
-app.js - main
-ไฟล์ getQuestion.js - โค้ดก่อนเเก้
-folder ver. som - public ก่อนเเก้
+getQuestion.js = app.jsก่อนเเก้
+folder ver. som = publicก่อนเเก้
+ไม่ต้องสนใจสองอันนี้
 
